@@ -6,10 +6,7 @@ import "./index.css";
 
  const Header =() => {
    return (
-    <div className="headerclass"> 
-    <div className='image'> 
-            </div>
-    
+        <div className='container'>
     <div className='header_h'>
     <Link to={"/"}> Accounts </Link>
     <Link to={"/purchases"}> Purchases </Link>

@@ -11,7 +11,7 @@ export const Footer =() => {
             <span>mail@domain.com</span>
         </div>
         <div> 
-            <h3>Info</h3> 
+            <h3>Info</h3>
         </div>
         <div style={{display:"grid" }}>
             <h3>Links</h3>

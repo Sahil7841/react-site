@@ -1,5 +1,7 @@
 import { getAllByDisplayValue } from "@testing-library/react";
 import React from "react";
+import ComB from "../../ComB";
+import ComC from "../../ComC";
 
 const Accounts = () => {
     return(
@@ -24,7 +26,8 @@ const Accounts = () => {
                 <button style={{ padding: "10px", backgroundColor: "#00bbf0", color: "white", border: "none", cursor: "pointer" }}>Read More</button>
             </div>
         </div>
-
+        <ComC />
+        <ComB />
     </div>
     )
 }
